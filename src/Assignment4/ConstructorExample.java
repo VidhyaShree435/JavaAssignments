@@ -8,7 +8,7 @@ class Home {
     	 System.out.println("value of variable: "+ var);
      }
     
-                                                                                                  //ctrl a+ ctrl i     //right click source, click getters and setters
+                                                                              //ctrl a+ ctrl i     //right click source, click getters and setters
 	Home(){
 		
 		turnOnFan();
