@@ -23,11 +23,11 @@ public class StringComapreExample {
         	  System.out.println("Str2 is not equal to Str3");
           }
           
-          result = str3.compareTo(str2);
+          result = str3.compareTo(str1);
           if(result==0) {
-        	  System.out.println("Str3 is equal to Str2");
+        	  System.out.println("Str3 is equal to Str1");
           } else {
-        	  System.out.println("Str3 is not equal to Str2");
+        	  System.out.println("Str3 is not equal to Str1");
           }
           
 	}
