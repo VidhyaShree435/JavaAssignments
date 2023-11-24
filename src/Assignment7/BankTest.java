@@ -3,7 +3,9 @@ package Assignment7;
 public class BankTest {
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
+		
         Customer[] customers = new Customer[10];
         
         for (int i = 0; i < 10; i++) {
