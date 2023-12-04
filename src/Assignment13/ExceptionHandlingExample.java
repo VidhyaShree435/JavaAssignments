@@ -19,12 +19,19 @@ public class ExceptionHandlingExample {
             // Handling NullPointerException
             String str = null;
             printStringLength(str);
+            
         } catch (ArithmeticException e) {
+        	
             System.err.println("ArithmeticException: " + e.getMessage());
+            
         } catch (NumberFormatException e) {
+        	
             System.err.println("NumberFormatException: " + e.getMessage());
+            
         } catch (NullPointerException e) {
+        	
             System.err.println("NullPointerException: " + e.getMessage());
+            
         } finally {
             // Close resources, if needed
             scanner.close();
